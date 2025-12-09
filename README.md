@@ -13,6 +13,7 @@ L'API implémente une gestion en mémoire de la ressource /users pour la récup�
 
 ## Structure du projet
 api-node-ts/
+
 ├── src/
 │   ├── controllers/
 │   │   └── user.controller.ts  // Logique métier (getUsers, addUser)
@@ -23,3 +24,5 @@ api-node-ts/
 ├── package.json              // Dépendances et scripts de lancement
 ├── tsconfig.json             // Configuration du compilateur TypeScript
 └── nodemon.json              // Configuration du redémarrage automatique
+
+## Installation et lancement
