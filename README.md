@@ -35,3 +35,8 @@ api-node-ts/
 └── nodemon.json              // Configuration du redémarrage automatique
 
 ## Installation et lancement
+1. Cloner et initialiser le projet
+```bash
+  # Crée le dossier et s'y déplace
+  mkdir api-node-ts && cd api-node-ts
+```
