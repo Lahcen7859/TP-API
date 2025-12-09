@@ -53,3 +53,7 @@ api-node-ts/
   npm run dev
 ```
 Le serveur devrait démarrer et afficher : Serveur démarré sur http://localhost:4000 (ou sur le port défini dans .env)
+
+## Auteurs
+
+Ce projet a été réalisé par Lahcen IDLAHCEN dans le cadre d'un projet en technologie du web.
