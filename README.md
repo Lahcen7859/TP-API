@@ -15,14 +15,23 @@ L'API implémente une gestion en mémoire de la ressource /users pour la récup�
 api-node-ts/
 
 ├── src/
+
 │   ├── controllers/
-│   │   └── user.controller.ts  // Logique métier (getUsers, addUser)
+
+│   │   └── user.controller.ts // Logique métier (getUsers, addUser)
+
 │   ├── routes/
-│   │   └── user.routes.ts      // Définition des chemins d'accès (GET/POST /users)
-│   └── index.ts              // Point d'entrée du serveur Express
-├── .env                      // Variables d'environnement (PORT=4000)
+
+│   │   └── user.routes.ts   // Définition des chemins d'accès (GET/POST /users)
+
+│   └── index.ts             // Point d'entrée du serveur Express
+
+├── .env                    // Variables d'environnement (PORT=4000)
+
 ├── package.json              // Dépendances et scripts de lancement
+
 ├── tsconfig.json             // Configuration du compilateur TypeScript
+
 └── nodemon.json              // Configuration du redémarrage automatique
 
 ## Installation et lancement
