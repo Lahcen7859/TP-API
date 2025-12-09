@@ -37,6 +37,10 @@ api-node-ts/
 ## Installation et lancement
 1. Cloner et initialiser le projet
 ```bash
-  # Crée le dossier et s'y déplace
-  mkdir api-node-ts && cd api-node-ts
+  git clone https://github.com/Lahcen7859/TP-API.git
+```
+2. Installer les dépendances
+```bash
+  # Initialise le projet Node.js
+  npm init -y
 ```
