@@ -43,4 +43,13 @@ api-node-ts/
 ```bash
   # Initialise le projet Node.js
   npm init -y
+  # Installe les dépendances principales (Express, dotenv)
+  npm install express dotenv
+  # Installe les dépendances de développement
+  npm install -D typescript ts-node @types/node @types/express nodemon
 ```
+3. Lancer en mode développement
+```bash
+  npm run dev
+```
+Le serveur devrait démarrer et afficher : Serveur démarré sur http://localhost:4000 (ou sur le port défini dans .env)
